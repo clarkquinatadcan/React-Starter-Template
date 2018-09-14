@@ -1,0 +1,20 @@
+// $path-url: '../../public/fonts/myriad-pro/';
+// @font-face {
+//     font-family: 'Myriad-Pro', sans-serif;
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('#{$path-url}MyriadPro-BlackSemiCn.otf') format('opentype')
+
+// }
+
+$path-url : '../../public/fonts/Indie_Flower/';
+@font-face {
+    font-family: 'Indie Flower', cursive;
+    // font-style: normal;
+    // font-weight: 400;
+    src: local('Indie Flower'),
+         local("IndieFlower"),
+         url('#{$path-url}IndieFlower.ttf') format('truetype');
+
+}
+// @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
